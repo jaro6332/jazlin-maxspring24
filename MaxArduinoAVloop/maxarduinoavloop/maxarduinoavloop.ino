@@ -1,3 +1,5 @@
+//https://www.tinkercad.com/things/4hXPnPH4gI9-/editel?returnTo=%2Fdashboard%3Ftype%3Dcircuits%26collection%3Ddesigns
+
 int potentiometerPin = A0;
 int buttonPin = 2;
 int lightSensorPin = A2;
