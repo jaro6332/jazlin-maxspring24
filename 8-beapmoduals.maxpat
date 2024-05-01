@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 1166.0, 691.0 ],
+		"rect" : [ 57.0, 104.0, 1166.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 778.947360992431641, 879.0, 201.0, 116.0 ],
+					"patching_rect" : [ 1218.0, 292.0, 201.0, 116.0 ],
 					"varname" : "bp.Audio Mixer",
 					"viewvisibility" : 1
 				}
@@ -78,7 +78,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 810.0, 564.0, 280.0, 116.0 ],
+					"patching_rect" : [ 544.0, 372.0, 280.0, 116.0 ],
 					"varname" : "bp.Cloud",
 					"viewvisibility" : 1
 				}
@@ -101,7 +101,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 810.0, 18.0, 726.0, 232.0 ],
+					"patching_rect" : [ 642.0, 20.0, 734.0, 248.0 ],
 					"varname" : "bp.Sequencer",
 					"viewvisibility" : 1
 				}
@@ -138,51 +138,6 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"extract" : 1,
-					"id" : "obj-10",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bp.Global Transport.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 610.0, 34.0, 157.0, 116.0 ],
-					"varname" : "bp.Global Transport",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"extract" : 1,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bp.LFO3.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1548.684195756912231, 520.0, 160.0, 116.0 ],
-					"varname" : "bp.LFO3",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"extract" : 1,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -192,31 +147,8 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 510.0, 218.0, 170.0, 116.0 ],
+					"patching_rect" : [ 434.0, 182.0, 170.0, 116.0 ],
 					"varname" : "bp.LFO2",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"extract" : 1,
-					"id" : "obj-7",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bp.LFO.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 1402.631565570831299, 516.052631616592407, 137.0, 116.0 ],
-					"varname" : "bp.LFO",
 					"viewvisibility" : 1
 				}
 
@@ -238,7 +170,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 150.0, 196.0, 267.0, 116.0 ],
+					"patching_rect" : [ 90.0, 182.0, 267.0, 116.0 ],
 					"varname" : "bp.Graphic ADSR",
 					"viewvisibility" : 1
 				}
@@ -261,7 +193,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 742.0, 1094.0, 113.0, 116.0 ],
+					"patching_rect" : [ 1218.0, 460.0, 113.0, 116.0 ],
 					"varname" : "bp.VCA",
 					"viewvisibility" : 1
 				}
@@ -307,7 +239,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 58.0, 830.0, 372.0, 214.0 ],
+					"patching_rect" : [ 774.0, 536.0, 372.0, 214.0 ],
 					"varname" : "bp.Big Scope",
 					"viewvisibility" : 1
 				}
@@ -329,7 +261,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 746.0, 1250.0, 148.0, 116.0 ],
+					"patching_rect" : [ 1224.0, 652.0, 148.0, 116.0 ],
 					"varname" : "bp.Stereo",
 					"viewvisibility" : 1
 				}
@@ -3718,7 +3650,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3726,7 +3658,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3805,10 +3737,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-1" : [ "Sync", "Sync", 0 ],
-			"obj-10::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-10::obj-30" : [ "sync_source", "sync_source", 0 ],
-			"obj-10::obj-76" : [ "Transport", "Transport", 0 ],
 			"obj-11::obj-11" : [ "Resonance", "Res", 0 ],
 			"obj-11::obj-26" : [ "spectral", "spectral", 0 ],
 			"obj-11::obj-51" : [ "CV2[1]", "CV2", 0 ],
@@ -3882,8 +3810,6 @@
 			"obj-6::obj-12" : [ "function", "function", 0 ],
 			"obj-6::obj-129" : [ "Domain", "Domain", 0 ],
 			"obj-6::obj-20" : [ "mute", "mute", 0 ],
-			"obj-7::obj-12" : [ "Mute[2]", "Mute", 0 ],
-			"obj-7::obj-20" : [ "Frequency", "Freq", 0 ],
 			"obj-8::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-8::obj-144" : [ "Phase", "Phase", 0 ],
 			"obj-8::obj-74" : [ "Rate", "Rate", 0 ],
@@ -3892,10 +3818,6 @@
 			"obj-8::obj-88" : [ "Time Mode", "Time Mode", 1 ],
 			"obj-8::obj-89" : [ "SyncRate", "Rate", 0 ],
 			"obj-8::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-9::obj-12" : [ "Mute[10]", "Mute", 0 ],
-			"obj-9::obj-20" : [ "Frequency[3]", "Freq", 0 ],
-			"obj-9::obj-7" : [ "CV", "CV", 0 ],
-			"obj-9::obj-75" : [ "SpectraLFOShape[2]", "Shape", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -3962,10 +3884,6 @@
 					"parameter_longname" : "Mute[1]"
 				}
 ,
-				"obj-7::obj-12" : 				{
-					"parameter_longname" : "Mute[2]"
-				}
-,
 				"obj-8::obj-12" : 				{
 					"parameter_longname" : "Mute[3]"
 				}
@@ -4006,12 +3924,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Global Transport.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Sequencer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bp.Graphic ADSR.maxpat",
 				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Envelope",
 				"type" : "JSON",
@@ -4024,19 +3936,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.LFO.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/LFO",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bp.LFO2.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/LFO",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.LFO3.maxpat",
 				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/LFO",
 				"type" : "JSON",
 				"implicit" : 1
