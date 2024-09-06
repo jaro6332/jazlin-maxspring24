@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 972.0, 709.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "Show_Grid",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "## Average VIZZIE input data ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-34",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.averagr.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 990.0, 442.0, 188.0, 130.0 ],
+					"prototypename" : "pixl",
+					"varname" : "smoothr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bubble_outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -641,7 +665,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 970.666695594787598, 354.333344340324402, 45.0, 45.0 ],
+					"patching_rect" : [ 876.0, 217.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 274.666674852371216, 16.000000476837158, 106.666669845581055, 106.666669845581055 ]
 				}
@@ -664,7 +688,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 970.666695594787598, 411.666679382324219, 208.0, 146.0 ],
+					"patching_rect" : [ 887.0, 264.0, 208.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 804.0000239610672, 397.000003457069397, 208.0, 146.0 ],
 					"prototypename" : "pixl",
@@ -1038,7 +1062,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1098,6 +1122,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -1215,6 +1246,12 @@
 			"obj-2::obj-65" : [ "FreqMode[1]", "FreqMode", 1 ],
 			"obj-2::obj-66" : [ "Offset[1]", "Offset", 0 ],
 			"obj-2::obj-92" : [ "DampenCV", "CV", 0 ],
+			"obj-34::obj-10" : [ "range[3]", "range", 0 ],
+			"obj-34::obj-12" : [ "pictctrl[44]", "pictctrl", 0 ],
+			"obj-34::obj-15" : [ "pictctrl[41]", "pictctrl[2]", 0 ],
+			"obj-34::obj-37" : [ "smoothing[4]", "Smoothing", 0 ],
+			"obj-34::obj-5" : [ "pictctrl[43]", "pictctrl[1]", 0 ],
+			"obj-34::obj-51" : [ "pictctrl[42]", "pictctrl[2]", 0 ],
 			"obj-3::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
 			"obj-3::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
 			"obj-3::obj-130" : [ "mute", "mute", 0 ],
@@ -1316,6 +1353,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "data-handler-L.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "data-handler.maxpat",
 				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
@@ -1338,6 +1381,12 @@
 				"name" : "vizzie-datatexconvert.js",
 				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.averagr.maxpat",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
